@@ -1,0 +1,1 @@
+{ "title": "Sportsbook - Starter", "panels": [ { "type": "timeseries", "title": "HTTP Request Rate", "targets":[{ "expr":"rate(http_requests_total[5m])"}] } ], "schemaVersion":38, "version":1 }

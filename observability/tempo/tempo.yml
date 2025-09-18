@@ -1,0 +1,9 @@
+server: { http_listen_port: 3200, grpc_listen_port: 9095 }
+distributor:
+  receivers:
+    otlp: { protocols: { http: {}, grpc: {} } }
+storage:
+  trace:
+    backend: local
+    local: { path: /var/tempo/traces }
+compactor: { compaction: { block_retention: 24h } }

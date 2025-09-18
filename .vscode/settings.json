@@ -1,0 +1,24 @@
+{
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Python
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["services/settlement/tests"],
+
+  // Go
+  "go.toolsManagement.autoUpdate": true,
+  "go.testFlags": ["-v"],
+
+  // JavaScript/TypeScript
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+
+  // YAML (nice for k8s/helm)
+  "yaml.validate": true,
+
+  // Terraform
+  "terraform.languageServer.enable": true
+}

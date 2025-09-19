@@ -4,5 +4,9 @@
   "type": "module",
   "scripts": {
     "test": "node test.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2"
   }
 }

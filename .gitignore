@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+
+# Go
+*.exe
+*.test
+*.out
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# General
+.DS_Store
+*.log
+
+# Environment / Secrets
+.env
+*.tfstate
+*.tfstate.backup
+.terraform/
